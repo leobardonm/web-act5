@@ -1,0 +1,7 @@
+Hacer un endpoint en capas (controller, db, handler, routes), traer un arreglo de estudiantes 
+cada estudiante tiene una matricula, nombre, calificacion final , adeudo (si/no) 
+Al mandar llamar ese endpoint tiene que regresar matricula, mensaje de situacion actual: si el usuario tiene una calificacion final > a 90 & no tiene adeudo = “Te graduaste con honores” , si su calificación final > 90 & tiene adeudo = “Tenias honores pero tienes adeudo” 
+si su calificacion final es ≥70  pero <90 “Pasaste muy apenas” 
+calificacion final < 70 y no tiene adeudo “ Tienes derecho a un  examen de recuperación”
+calificacion final < 70 y tiene adeudo “ Expulsado”
+
